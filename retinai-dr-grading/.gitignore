@@ -1,0 +1,74 @@
+﻿# ─── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+wheels/
+sdist/
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# Type checking / linting caches
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ruff_cache/
+.pytype/
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ─── Node / Frontend ───────────────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Vite cache
+frontend/.vite/
+
+# ─── Environment & secrets ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ─── OS / Editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ─── Logs & temp files ─────────────────────────────────────────────────────────
+*.log
+logs/
+tmp/
+temp/
+
+# ─── NOTE: Model weights (.pth files) are intentionally tracked in this repo ───
+# Do NOT add *.pth here.
